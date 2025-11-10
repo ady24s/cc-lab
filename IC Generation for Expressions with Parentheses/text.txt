@@ -1,0 +1,7 @@
+win_bison -d ic_generation.y
+win_flex ic_generation.l
+gcc ic_generation.tab.c lex.yy.c -o ic_generation.exe
+ic_generation.exe
+
+
+(a+b)*(c-d)

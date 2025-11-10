@@ -1,0 +1,6 @@
+win_bison -d if_then.y
+win_flex if_then.l
+gcc if_then.tab.c lex.yy.c -o if_then.exe
+if_then.exe
+
+if(a>5) x=10;

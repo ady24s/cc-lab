@@ -1,0 +1,7 @@
+win_bison -d function_check.y
+win_flex function_check.l
+gcc function_check.tab.c lex.yy.c -o function_check.exe
+function_check.exe
+
+
+int sum(int a,int b){ return a+b; }
