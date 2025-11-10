@@ -1,0 +1,4 @@
+win_bison -d desk_calculator.y
+win_flex desk_calculator.l
+gcc desk_calculator.tab.c lex.yy.c -o desk_calculator.exe -lm
+desk_calculator.exe

@@ -1,0 +1,5 @@
+win_bison -d while_loop.y
+win_flex while_loop.l
+gcc while_loop.tab.c lex.yy.c -o while_loop.exe
+while_loop.exe
+while(i<10) { x = x + 1; y = y - 2; }

@@ -1,0 +1,6 @@
+win_bison -d infix_to_postfix.y
+win_flex infix_to_postfix.l
+gcc infix_to_postfix.tab.c lex.yy.c -o infix_to_postfix.exe
+infix_to_postfix.exe
+
+a + b * ( c - d )

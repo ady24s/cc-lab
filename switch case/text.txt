@@ -1,0 +1,10 @@
+win_bison -d switch_case.y
+win_flex switch_case.l
+gcc switch_case.tab.c lex.yy.c -o switch_case.exe
+switch_case.exe
+
+switch(x) {
+    case 1: y = y + 1; break;
+    case 2: y = y + 2; break;
+    default: y = 0;
+}

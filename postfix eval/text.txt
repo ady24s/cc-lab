@@ -1,0 +1,6 @@
+win_bison -d postfix_eval.y
+win_flex postfix_eval.l
+gcc postfix_eval.tab.c lex.yy.c -o postfix_eval.exe
+postfix_eval.exe
+
+5 3 + 2 *

@@ -1,0 +1,4 @@
+https://www.university.edu
+http://mysite.com
+www.example.edu/page
+https://school.edu123

@@ -1,0 +1,8 @@
+win_bison -d postfix_decimal.y
+win_flex postfix_decimal.l
+gcc postfix_decimal.tab.c lex.yy.c -o postfix_decimal.exe
+postfix_decimal.exe
+
+
+
+5.5 2.2 + 3 *

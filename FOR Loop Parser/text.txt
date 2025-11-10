@@ -1,0 +1,7 @@
+win_bison -d for_loop.y
+win_flex for_loop.l
+gcc for_loop.tab.c lex.yy.c -o for_loop.exe
+for_loop.exe
+
+
+for(i=0;i<10;i++) { x = x + 1; y = y - 2; }

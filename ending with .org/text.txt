@@ -1,0 +1,4 @@
+https://example.com
+http://mysite.org
+www.test.org/page
+site.net

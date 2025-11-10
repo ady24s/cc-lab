@@ -1,0 +1,7 @@
+int main() {
+    int a = 5;
+    float b = 2.3;
+    //this is a comment
+    a = a + b;
+    return 0;
+}

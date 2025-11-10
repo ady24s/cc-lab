@@ -1,0 +1,4 @@
+example.com
+test.org
+mywebsite.com
+hello.net
